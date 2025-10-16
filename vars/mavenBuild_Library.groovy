@@ -1,5 +1,3 @@
-stage('building the package'){
-    steps{
-            sh "mvn clean package"
-    }
+def call ('building the package'){
+            sh "mvn clean package"   
 }
