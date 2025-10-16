@@ -1,3 +1,3 @@
-def call ('building the package'){
+def call (){
             sh "mvn clean package"   
 }
